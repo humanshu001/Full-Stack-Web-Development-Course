@@ -117,3 +117,14 @@ h1{
     border-color: red blue green yellow;
 
 }
+
+.br{
+    border: 8px solid red;
+    
+    border-top-right-radius:10px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:40px;
+
+    border-radius: 40px 30px 20px 10px;
+}
