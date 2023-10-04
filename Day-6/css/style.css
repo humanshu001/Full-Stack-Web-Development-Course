@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/bg3.webp),url(../images/bg2.webp),url(../images/bg4.webp);
+    background-size: 500px, 600px, 400px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 0% 0%, 500px 0%, 1100px 0%;
+    /* background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat; */
+}
+p{
+    background-color: rgba(255, 255, 255, 0.221);
+    color: red;
+    margin: 10px;
+    padding: 20px;
+    display: none;
+}

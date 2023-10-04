@@ -1,0 +1,26 @@
+body{
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.para{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+}
+/* 
+Background Properties
+
+    background-image
+    background-repeat
+    background-color
+    background-size
+    background-position
+    background-attachment
+
+
+
+
+*/

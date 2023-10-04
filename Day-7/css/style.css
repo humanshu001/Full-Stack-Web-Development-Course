@@ -1,0 +1,119 @@
+/* 
+# Border
+    # Border-width
+        border-top-width
+        border-left-width
+        border-bottom-width
+        border-right-width
+
+
+    # Border-style
+        border-top-style
+        border-left-style
+        border-bottom-style
+        border-right-style
+
+
+    # Border-color
+        border-top-color
+        border-left-color
+        border-bottom-color
+        border-right-color
+
+
+# Border-radius
+    border-top-right-radius
+    border-top-left-radius
+    border-bottom-right-radius
+    border-bottom-left-radius
+
+
+# Border
+    border-top
+    border-right
+    border-bottom
+    border-left
+
+*/
+h1{
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+}
+.bb{
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.bsd{
+    border: 5px dotted red;
+}
+
+.bsdh{
+    border: 5px dashed green;
+}
+
+.bsdg{
+    border:20px groove red;
+}
+
+.bsdu{
+    border: 5px double blue;
+}
+
+.bsdi{
+    border: 5px inset green;
+}
+.bsdo{
+    border: 5px outset green;
+}
+.bsdr{
+    border: 5px ridge green;
+}
+.bsh{
+    border: 5px hidden green;
+}
+.bsn{
+    border: 5px none green;
+}
+
+
+.bw{
+    border: 5px solid red;
+    border-top-width: 40px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-left-width: 10px;
+
+
+    border-width: 10px 20px 30px 40px;
+
+    border-width: 20px 50px;
+}
+
+.bs{
+    border: 5px solid blue;
+
+    border-left-style: dashed;
+    border-top-style: dotted;
+    border-bottom-style: double;
+    border-right-style: groove;
+
+
+    border-style: double inset outset groove;
+}
+
+.bc{
+    border: 8px solid red;
+
+
+    border-top-color:green;
+    border-left-color:black;
+    border-bottom-color:blue;
+    border-right-color:tomato;
+
+
+    border-color: red blue green yellow;
+
+}
