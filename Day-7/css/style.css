@@ -128,3 +128,24 @@ h1{
 
     border-radius: 40px 30px 20px 10px;
 }
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 300px;
+}
+
+.bt{
+    border-top: 10px solid red;
+}
+.bl{
+    border-left: 10px solid red;
+}
+.brg{
+    border-right: 10px solid red;
+}
+.bbb{
+    border-bottom: 10px solid red;
+}
