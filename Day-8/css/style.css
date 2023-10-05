@@ -1,0 +1,157 @@
+/* 
+CSS Padding
+*****************
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding
+
+
+
+CSS Margin
+********************
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+
+
+CSS Outline
+*********************
+
+outline-width
+outline-style
+outline-color
+outline-offset
+outline
+
+CSS Height
+*************************
+max-height
+min-height
+
+
+CSS Width
+*************************
+max-width
+min-width
+*/
+
+
+
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
+}
+
+
+.pt{
+    background-color: blue;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+.pb{
+    background-color: red;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.pr{
+    background-color: red;
+    padding-right: 70px;
+    margin-right: 70px;
+}
+.pl{
+    background-color: red;
+    padding: 70px;
+    margin: 100px;
+}
+
+
+.cu{
+    background-color: aqua;
+    padding: 30px;
+    margin: 20px;
+    outline-width: 10px;
+    outline-style: double;
+    outline-color: green;
+    border: 4px solid red;
+    outline: 30px dashed blue;
+    outline-offset: 3px;
+}
+
+.box-container{
+    width: 960px;
+    margin: 0 auto;
+}
+.box1{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.box2{
+    background-color: blue;
+    width: 50%;
+    height: 300px;
+    float: right;
+    /* border: 10px solid green; */
+    outline: 10px solid aqua;
+    outline-offset: -50px;
+}
+
+
+.box-container2{
+    width: 1000px;
+}
+.box3{
+    width: 25%;
+    height: 300px;
+    background-color: red;
+    float: left;
+}
+
+.box4{
+    width: 25%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+.box5{
+    width: 25%;
+    height: 300px;
+    background-color: green;
+    float: left;
+}
+
+.box6{
+    width: 25%;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+}
+
+
+.chess{
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    border: 5px solid rgb(106, 106, 106);
+}
+
+.black{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
