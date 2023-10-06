@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
+}
+.box-model{
+    background-color: skyblue;
+    padding: 30px;
+    margin: 40px;
+    border: 20px solid blue;
+    outline: 10px solid red;
+}
+
+.tar{
+    text-align: right;
+}
+.tal{
+    text-align: left;
+}
+.tac{
+    text-align: center;
+}
+.taj{
+    text-align: justify;
+    text-align-last:center;
+}
+.td{
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration: underline dotted blue 4px;
+}
+.tdu{
+    text-decoration: underline solid green 5px;
+}
+.tdo{
+    text-decoration: overline solid rgb(0, 0, 0) 5px;
+}
+.tdl{
+    text-decoration: line-through solid rgb(128, 0, 77) 5px;
+}
+.ttu{
+    text-transform: uppercase;
+}
+.ttl{
+    text-transform: lowercase;
+}
+.ttc{
+    text-transform: capitalize;
+}
+.ws{
+    word-spacing: 20px;
+}
+.ls{
+    letter-spacing: 10px;
+}
+.lh{
+    line-height: 40px;
+    text-indent: 100px;
+}
+.ts{
+    text-shadow: 5px 5px red;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px red;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
